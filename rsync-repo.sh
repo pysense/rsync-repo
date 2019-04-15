@@ -112,6 +112,6 @@ esac
 case $arg_repo_name in
     centos) rsync_repo centos --exclude=*.iso;;
     epel) rsync_repo epel;;
-    ubuntu) rsync_repo ubuntu --exclude="*-proposed" --exclude="*.iso" -n;;
+    ubuntu) rsync_repo ubuntu --exclude="*-proposed" --exclude="*.iso";;
     *) rsync_repo;;
 esac
